@@ -9,8 +9,17 @@
   </head>
   <body>
     <h1>Tic Tac Toe</h1>
-    <input id="player1" type="text" placeholder="Player1" />
-    <input id="player2" type="text" placeholder="Player2" />
+    <div id="iContainer">
+      <input id="player1" type="text" placeholder="Player1" />
+      <input id="player2" type="text" placeholder="Player2" />
+    </div>
     <div id="board"></div>
+    <div id="lContainer">
+      <div id="results">
+        <div id="Score1"></div>
+        <div id="Score2"></div>
+      </div>
+      <button id="next" onclick="gameState.endGame()">Next</button>
+    </div>
   </body>
 </html>
